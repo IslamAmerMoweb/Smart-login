@@ -1,0 +1,132 @@
+a,
+p {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+main,
+.welcom {
+  height: 100svh;
+  background-color: #193838;
+  text-transform: capitalize;
+}
+
+main h1 {
+  text-align: center;
+  color: #72d5d7;
+  margin-block: 1.5rem;
+}
+
+main .container .register {
+  width: 800px;
+  height: 440px;
+  margin: auto;
+  background-color: #255152;
+  box-shadow: 0 0 10px 1px #000;
+}
+
+main .container .register input {
+  background-color: #1d3f40;
+}
+
+main .container .register input::placeholder {
+  color: #58c3c4;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+main .container .register input:focus {
+  color: #a5c2e8;
+  font-size: 17.5px;
+  outline: 1px solid #3e87e6;
+}
+
+main .container .register form + a:hover {
+  background-color: #168799;
+}
+
+main .container .register p a:hover {
+  text-decoration: underline;
+  color: #3e87e6;
+}
+
+.signup .container .register {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: #255152;
+  box-shadow: 0 0 10px 1px #000;
+}
+
+.signup .endsign {
+  background-color: #255152;
+  border: none;
+  border: 1px solid #1b8855;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-top: 2rem;
+}
+
+.signup .endsign:hover {
+  background-color: #168799;
+}
+
+.pt-5 .container .register form .should {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+span {
+  color: #fff;
+}
+
+.email {
+  margin-bottom: 1.5rem;
+}
+
+.welcom nav .btn:hover {
+  background-color: #17fc54;
+}
+
+.welcom nav {
+  box-shadow: 0 0 20px 2px #000;
+}
+
+.welcom .welcom-name {
+  background-color: #204747;
+  width: 800px;
+  height: 160px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 2px #000;
+}
+
+.welcom .welcom-name h1 {
+  color: #5fd4d4;
+}
+
+.signup .register form span.success {
+  color: #5efe86;
+}
+
+@media (max-width: 567px) {
+  main {
+    width: 100%;
+    height: 100svh;
+  }
+  main .container .register {
+    width: 100%;
+    height: 440px;
+  }
+
+  .signup .container .register {
+    width: 100%;
+  }
+
+  .welcom .welcom-name {
+    width: 100%;
+  }
+}
